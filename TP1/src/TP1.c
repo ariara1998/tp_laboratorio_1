@@ -3,7 +3,7 @@
  Name        : TP1.c
  Author      : Ariel Arakaki 1e
  Version     : 1.0
- Copyright   : Your copyright notice
+ Copyright   :
  Description : Calculadora
  ============================================================================
  */
@@ -28,8 +28,6 @@ int main() {
 	int factorialb;
 	int opcion;
 	int respuesta;
-
-
 
     valora = utn_getNumero(&a,"Ingrese un numero\n","Error ingrese un numero del 0 al 1000\n",0,1000,3);
 	valorb = utn_getNumero(&b,"Ingrese un numero\n","Error ingrese un numero del 0 al 1000\n",0,1000,3);
